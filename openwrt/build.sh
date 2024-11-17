@@ -30,9 +30,9 @@ ip_info=`curl -sk https://ip.cooluc.com`;
 
 # script url
 if [ "$isCN" = "CN" ]; then
-    export mirror=init.cooluc.com
+    export mirror=raw.githubusercontent.com/2014flowerwql/openwrt_build_script/refs/heads/master
 else
-    export mirror=init2.cooluc.com
+    export mirror=raw.githubusercontent.com/2014flowerwql/openwrt_build_script/refs/heads/master
 fi
 
 # github actions - automatically retrieve `github raw` links
